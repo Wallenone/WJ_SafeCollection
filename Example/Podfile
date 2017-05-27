@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'WJ_SafeCollection_Example' do
+  pod 'WJ_SafeCollection', :path => '../'
+
+  target 'WJ_SafeCollection_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+  end
+end
