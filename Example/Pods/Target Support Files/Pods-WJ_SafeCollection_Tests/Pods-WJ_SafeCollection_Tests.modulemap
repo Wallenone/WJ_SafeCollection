@@ -1,0 +1,6 @@
+framework module Pods_WJ_SafeCollection_Tests {
+  umbrella header "Pods-WJ_SafeCollection_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

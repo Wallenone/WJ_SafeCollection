@@ -1,0 +1,6 @@
+framework module WJ_SafeCollection {
+  umbrella header "WJ_SafeCollection-umbrella.h"
+
+  export *
+  module * { export * }
+}
